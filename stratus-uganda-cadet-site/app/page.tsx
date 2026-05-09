@@ -2,7 +2,7 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Plane, ShieldCheck, ArrowRight, CheckCircle2, Building2, GraduationCap, Globe2, FileText, Users, Mail, Phone, MapPin } from 'lucide-react';
-import { t, Lang } from '@/lib/i18n';
+import { t, Lang } from "../lib/i18n";
 
 const requirements = ['Ugandan citizen or eligible resident applicant','Age normally 17–28 for cadet pathway priority review','Completed secondary school; diploma or degree preferred','Strong English communication ability','Able to pass aviation medical, background and aptitude screening','Clear family support or financing plan where required','Long-term commitment to an airline pilot career'];
 const process = ['Submit online cadet interest form','Initial eligibility and document review by Stratus','English, aptitude and medical pre-screening','Airline partner final review where applicable','Conditional pathway offer before training commencement'];
